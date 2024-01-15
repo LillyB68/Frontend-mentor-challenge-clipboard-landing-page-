@@ -1,0 +1,478 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+    color: hsl(210, 10%, 33%);
+}
+h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+header {
+    margin-bottom: 100px;
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+header .logo {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 80px;
+}
+
+header h1 {
+    text-align: center;
+    width: 340px;
+    margin-bottom: 18px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+    width: 345px;
+    margin-bottom: 30px;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+header .buttons {
+    display: flex;
+    flex-direction: column;
+    
+}
+button {
+    width: 300px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+#cyan {
+    margin-bottom: 15px;
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 10px 10px 10px hsla(171, 66%, 44%, 0.15);
+}
+
+#blue {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 10px 10px 10px hsla(233, 100%, 69%, 0.15);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.section-1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.section-header {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-header h2 {
+    width: 280px;
+    text-align: center;
+    
+}
+.section-header p {
+    width: 340px;
+}
+.section-1 .container {
+    margin: 0px;
+    padding: 0px;
+    text-align:center ;
+}
+.section-1 .container img {
+    margin: 0px;
+    padding: 0px;
+    width: 330px;
+    margin-bottom: 60px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.benefit-1, .benefit-2, .benefit-3 {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits h3{
+    margin-bottom: 8px;
+
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.section-2 img {
+    width: 330px;
+}
+
+.section-2 p {
+    margin-bottom: 40px;
+}
+
+.section-3 .section-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3 h2 {
+    width:300px ;
+    text-align: center;
+}
+
+.section-3 .tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tools {
+    margin-top: 25px;
+}
+
+.tool-1, .tool-2, .tool-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tool-1, .tool-2 {
+    margin-bottom: 20px;
+}
+.tools h3, img {
+    margin-bottom: 15px;
+}
+
+.section-3 {
+    margin-bottom: 100px;
+}
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.section-4 .container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.section-4 img {
+    margin-bottom: 70px;
+}
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.section-5 div {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-5 h2 {
+    margin-bottom: 20px;
+}
+
+.section-5 p {
+    padding: 0px;
+    margin-bottom: 30px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    background-color: hsla(201, 11%, 66%, 0.15);
+}
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: hsl(210, 10%, 33%);
+}
+footer .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer img {
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer div img {
+    width: 30px ;
+    height:30px ;
+}
+footer .logo1, .logo2 {
+    margin-right: 35px;
+}
+@media (min-width: 768px) {
+    body {
+        background-image: url(./images/bg-header-desktop.png);
+        background-size: cover;
+        overflow: scroll;
+        min-height: 100vh;
+        display: grid;
+    }
+    header h1{
+        width: 100%;
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    p{
+        font-size: 18px;
+    }
+    header p {
+        width: 600px;
+        font-size: 20px;
+    }
+
+    header .buttons {
+        flex-direction: row;
+    }
+
+    #cyan {
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+    button {
+        width: 250px;
+    }
+
+    .section-header h2 {
+        width: 100%;
+    }
+
+    .section-header p {
+        width: 700px;
+    }
+
+    .section-1 {
+        width: 100%;
+    }
+
+    .section-1 .container {
+        position: relative;
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #computer {
+        width: 40%;
+        left: 50%;
+        transform: translate(-5%);
+        height: auto;
+        
+    }
+    
+    .benefits {
+        margin-top: 70px;
+    }
+    .benefits p {
+        width: 400px;
+        text-align: left;
+        line-height: 28px;
+    }
+
+    .benefit-1, .benefit-2, .benefit-3 {
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        margin-bottom:15px ;
+        margin-left: 80px;
+        text-align: left;
+    }
+
+    .benefits h3{
+        font-weight: 600;
+    }
+    .section-2 p{
+        width: 800px;
+    }
+    .section-2 img{
+        width: 60%;
+    }
+
+    .section-3 .tools {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .tool-1, .tool-2, .tool-3 {
+        margin: 0px;
+    }
+    .tool-1, .tool-2 {
+        margin-right: 40px;
+    }
+    .tools h3, img {
+        margin-bottom: 20px;
+    }
+    .tools p {
+        width: 420px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-4 {
+        width: 80%;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        
+    }
+    .section-4 .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        
+    }
+    .section-4 img {
+        margin: 0px;
+    }
+    #image1, #image2, #image3, #image4 {
+        margin-right: 10%;
+    }
+    .section-5 div{
+        flex-direction: row;
+        justify-content: center;
+        align-items: none;
+    }
+    .section-5 p {
+        width: 65%;
+    }
+    footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+    footer img {
+        margin: 0px;
+        padding: 0px;
+        margin-right: 10%;
+    }
+    footer a {
+        margin: 0px;
+    }
+    footer .links {
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        gap: 20px;
+        margin-right: 20%;
+        
+    }
+    footer .logos {
+        width: fit-content;
+        justify-self: flex-end;
+    }
+}
+@media (max-width: 1300px) {
+    .section-3 .tools {
+        flex-direction: column;
+    }
+
+    .section-4 {
+        flex-direction: column;
+        align-items:center;
+    }
+    .section-4 .container {
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        
+    }
+    .section-4 img {
+        margin: 0px;
+    }
+    #image1, #image2, #image3, #image4 {
+        margin-right: 0px;
+        margin-bottom: 70px;
+    }
+    
+}
+
